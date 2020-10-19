@@ -1,0 +1,60 @@
+.maindiv{
+    font-family:'Segoe UI Semibold';
+    color:#2F2D51;
+    padding: 0 2rem;
+}
+.heading{
+    padding:2rem 0 1rem;
+}
+.tickdiv{
+    margin:2rem 0 1rem ;
+}
+.Crearinputcheckbox{
+    min-width: 17px;
+    min-height: 17px;
+    margin-top: 0.25rem;
+    margin-right: 1rem; 
+}
+.Crearcheckboxdiv{
+    display: flex;
+    margin-top: 1rem;
+}
+.agreement{
+    max-width: 100%;
+}
+@media screen and (max-width: 599px) {
+    .maindiv{
+        margin-bottom: 1rem;
+        padding: 0 4rem;
+    
+    }
+    .Crearinputcheckbox{
+        width: 15px; 
+        height: 15px;
+        margin-right: 0.6rem; 
+    }
+    .agreement{
+        max-width: 70%;
+    }
+  
+}
+@media screen and (max-width: 500px) {
+
+    .maindiv{
+        padding: 0 3rem;
+    }
+}
+@media screen and (max-width: 430px) {
+
+    .maindiv{
+        padding: 0 2rem;
+
+    }
+}
+@media screen and (max-width: 330px) {
+
+    .maindiv{
+        padding: 0 1.1rem;
+
+    }
+}

@@ -1,0 +1,58 @@
+.Iniciarmain{
+    display: grid;
+    justify-content: center;
+    color: white;
+    font-family:'Segoe UI';
+    text-align: center;
+}
+.Iniciarheading{
+    padding: 2rem 0 1rem;
+    margin: 4rem 0 2rem;
+    text-align: left;
+}
+.Iniciartextbox{
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.checkboxdiv{
+    display: flex;
+}
+.Errordiv{
+    background-color: #FF5C6F;
+    padding: 0.5rem;
+    margin: 0.2;
+    text-align: center;
+    display: grid;
+    color: white;
+}
+.checkboxlabel{
+    font-size: 1rem;
+    padding: 0.15rem 0.5rem;
+}
+.Iniciarbuttondiv{
+    margin: 2rem 0 1rem 0;
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+.inputcheckbox{
+    width: 18px; 
+    height: 18px; 
+    margin-top: 0.4rem;  
+}
+@media screen and (max-width: 959px) {
+    .Iniciartextbox{
+        margin: 1rem 0 0;
+    }
+    .checkboxdiv{
+        margin:1rem 0 0;
+    }
+ 
+}
+@media screen and (max-width: 599px) {
+    .inputcheckbox{
+        width: 15px; 
+        height: 15px;  
+    }
+}
+

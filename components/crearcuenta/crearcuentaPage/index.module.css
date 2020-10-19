@@ -1,0 +1,56 @@
+.emptydiv{
+    height:4rem;
+    background-color:#E7E9F4;
+}
+.maingrid{
+    padding:4rem;
+}
+.steptime{
+  margin-top: -1.5rem;
+}
+.timediv{
+  background-color:#FF5C6F;
+  color:white;
+  text-align:center;
+  font-weight: bold;
+  padding: 0.8rem;
+  border-radius: 0.6rem;
+  font-size: 1.3rem;
+  margin-left: 19rem;
+  width: 5.8rem;
+}
+.Crearcuentagrid{
+    background-color:white;
+    border-radius:1.5rem;
+    box-shadow:
+  0 20px 40px rgba(0, 0, 0, 0.12)
+;
+}
+.Iniciarsesiongrid{
+    background-color:#4f86f2;
+    border-radius: 1.5rem;
+    box-shadow:
+  0 20px 40px rgba(0, 0, 0, 0.12)
+;
+}
+.parentdiv{
+  background-color:#f9faff;
+}
+.bottombuttongrid{
+  padding: 2rem 0;
+}
+@media screen and (max-width: 1300px) {
+.timediv{
+  margin-left: 7rem;
+}
+}
+@media screen and (max-width: 959px) {
+  .timediv{
+    margin-left: 0rem;
+    width: 100%;
+    border-radius: 0;
+  }
+  .maingrid{
+    padding: 1rem;
+}
+}

@@ -1,0 +1,29 @@
+.brands{
+    border-bottom: 1px groove;
+    padding-bottom: 4rem;
+    margin: 5rem 0 4rem 0;
+    text-align: center;
+}
+.first3imgs{
+  height: 5rem;
+}
+.remimgs{
+  height: 3.5rem;
+  padding-top: 1rem;
+}
+@media screen and (max-width: 599px) {
+    .first3imgs{
+        height: 3.4rem;
+      }
+      .remimgs{
+        height: 2.8rem;
+      }
+}
+@media screen and (max-width: 300px) {
+    .first3imgs{
+        height: 2rem;
+      }
+      .remimgs{
+        height: 1rem;
+      }
+}

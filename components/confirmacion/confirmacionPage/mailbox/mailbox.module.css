@@ -1,0 +1,27 @@
+.paper{
+    height: auto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: #4F86F2;
+    margin: 1rem 0;
+    border-radius: 13px;
+    box-shadow:0 1px 3px rgba(24, 24, 24, 0.3);
+    text-align: center;
+    padding: 1rem 0;
+}
+.img{
+    height: 2rem;
+}
+.typo1{
+    color: white;
+    text-align: left;
+
+}
+.typo2{
+    color: white;
+    float: left;    
+    display: inline;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}

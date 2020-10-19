@@ -1,0 +1,56 @@
+.rootStepIcon{
+    background-color: #ccc;
+    z-index: 1;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .active {
+    background-color:#2F2D51;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.25);
+  }
+  .completed{
+    background-color: #0CD5A2
+  }
+  .root {
+    width: 100%;
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+  }
+
+  .button {
+    margin-right: 1rem
+  }
+  .instructions {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  @media screen and (max-width: 599px) {
+    .rootStepIcon{
+        width: 3rem;
+        height: 3rem;
+      }
+}
+@media screen and (max-width: 365px) {
+  .rootStepIcon{
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+}
+@media screen and (max-width: 325px) {
+  .rootStepIcon{
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+}
+@media screen and (max-width: 300px) {
+  .rootStepIcon{
+      width: 1.7rem;
+      height: 1.7rem;
+    }
+}
+

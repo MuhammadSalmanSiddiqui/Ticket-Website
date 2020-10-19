@@ -1,0 +1,91 @@
+.form__input {
+  font-family: 'Segoe UI Medium';
+  color: #333;
+  font-size: 1rem;
+  padding: 0.45rem 0.5rem;
+  width: 16rem;
+  border-radius: 0.4rem;
+  background-color: #ecedf0;
+  border: none;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+.form__input:focus{
+  outline: none;
+  border-bottom: 2px solid;
+}
+@media screen and (max-width: 1100px) {
+  .form__input {
+  width: 14rem;
+}
+}
+@media screen and (max-width: 1005px) {
+  .form__input {
+  width: 13rem;
+}
+}
+@media screen and (max-width: 958px) {
+  .form__input {
+  width: 26rem;
+}
+}
+@media screen and (max-width: 907px) {
+  .form__input {
+  width: 24rem;
+}
+}
+@media screen and (max-width: 849px) {
+  .form__input {
+  width: 22rem;
+}
+}
+@media screen and (max-width: 786px) {
+  .form__input {
+  width: 20rem;
+}
+}
+@media screen and (max-width: 718px) {
+  .form__input {
+  width: 18rem;
+}
+}
+@media screen and (max-width: 653px) {
+  .form__input {
+  width: 16rem;
+}
+}
+@media screen and (max-width: 599px) {
+  .form__input {
+  width: 27rem;
+}
+}
+@media screen and (max-width: 550px) {
+  .form__input {
+  width: 22rem;
+}
+}
+@media screen and (max-width: 500px) {
+  .form__input {
+  width: 21rem;
+}
+}
+@media screen and (max-width: 421px) {
+  .form__input {
+  width: 19rem;
+}
+}
+@media screen and (max-width: 380px) {
+  .form__input {
+  width: 17rem;
+}
+}
+@media screen and (max-width: 342px) {
+  .form__input {
+  width: 16rem;
+}
+}
+@media screen and (max-width: 300px) {
+  .form__input {
+  width: 14rem;
+}
+}

@@ -1,0 +1,28 @@
+.main{
+    padding: 3.5rem;
+    background-color:#f9faff;
+}
+.eagle{
+    height: auto;
+    width: 100%;
+    margin-bottom: 2rem;  
+    border-radius: 2rem;  
+}
+.stepdiv{
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    background-color:#f9faff;
+}
+.confiremptydiv{
+    height:5rem;
+    background-color:#E7E9F4;
+}
+@media screen and (max-width: 599px) {
+    .main{
+        padding: 1rem;
+    }
+    .stepdiv{
+        margin-top: -1.5rem;
+        margin-bottom: -0.5rem;
+    }
+}

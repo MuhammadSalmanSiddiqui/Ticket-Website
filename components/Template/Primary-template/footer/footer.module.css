@@ -1,0 +1,44 @@
+.FooterTop{
+    color:white;
+    padding: 2rem;
+}
+.topdata{
+    display:grid;
+    grid-gap: 1.5rem;
+    align-content: center;
+    justify-content: center;
+}
+.logo{
+    height: 13rem;
+    width: 13rem;
+}
+.Footerbottom{
+    padding: 2rem 3.5rem;
+}
+.icon{
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+    .topdata{       
+        align-content: left;
+        justify-content: left;
+        grid-gap: 0rem;
+    }
+    .typotop{
+        padding-top: 1rem;
+    }
+    .logo{
+        height: 4rem;
+    }
+    
+}
+@media screen and (max-width: 599px) {
+    .Footerbottom{
+        padding: 2rem;
+    }
+    .Bottomdata{
+        padding: 0.4rem 0;
+    }
+}
+    

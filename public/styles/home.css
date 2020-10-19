@@ -1,0 +1,45 @@
+div.react-carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+div.react-carousel-indicators span.react-carousel-indicator,
+div.react-carousel-indicators span.active {
+  float: left;
+  width: 4px;
+  height: 4px;
+  border: 0;
+  background-color: rgba(128, 128, 128, 0.849);
+  margin: 0px 4px;
+  border-radius: 10px;
+}
+
+div.react-carousel-indicators span.active {
+  background: rgb(31, 31, 30);
+  width: 25px;
+}
+.carousel-container {
+  height: 500px;
+  margin: 20px 0;
+}
+.carousel-item-padding-40-px {
+  margin: 0px 20px;
+  width: 280px !important;
+}
+.slick-slider.carousel-container.slick-initialized {
+  /* height: 500px !important; */
+  margin: 50px 0;
+}
+.slick-list {
+  /* height: 900px !important; */
+  /* margin: 90px 90px; */
+  /* padding: 30px; */
+  overflow: visible !important;
+}
+@media screen and (max-width: 600px) {
+  .carousel-item-padding-40-px {
+    margin: 0px 0px;
+    width: 100% !important;
+  }
+}
